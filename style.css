@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: black;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.some {
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+    margin-top: 10px;
+}
