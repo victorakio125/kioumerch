@@ -8,10 +8,58 @@
 
 nav {
     display: flex;
-    justify-content: end;
-    padding: 50px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
 
+.some {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.some p {
+    color: white;
+    margin: 0 auto;
+}
+
+.some button{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    border-style: none;
+    border: none;
+    background-color: rgb(15, 15, 15);;
+} 
+
+#dummy {
+    cursor: default;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+
+.logo span:hover,.logo:hover {
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.idk {
+    background-color: white;
+    padding: 15px;
+
+}
+
+#something {
+    margin-bottom: 0rem;
 }
 
 ul li {
@@ -21,7 +69,14 @@ ul li {
 ul li a {
     color: black;
     font-size: 22px;
-    margin: 0 10px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(124, 124, 124);
+    font-size: 24px;
+    transition: 0.5s;
 }
 
 .some {
@@ -29,3 +84,58 @@ ul li a {
     padding: 30px;
     margin-top: 10px;
 }
+
+.centrar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.centrar img {
+    margin: 50px 20px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content h1 {
+    color: black;
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+.content p{
+    color: rgb(59, 59, 59);
+    font-family: sans-serif;
+}
+
+
+.Hoodies-content {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.hoodies-contentx {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hoodies-contentx p{
+    color: gray;
+
+}
+
+.hoodies-contentx div {
+    text-align: center;
+}
+
